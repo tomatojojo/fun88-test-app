@@ -43,13 +43,20 @@
     font-size: 24px;
     display: flex;
     align-items: center;
-    margin-left: 10px; /* Space between icons */
+    margin-left: 10px;
     color: #007bff;
   }
   
   .navbar__balance {
     font-weight: bold;
     font-size: 16px;
-    margin-right: 10px; /* Space between balance and user icon */
+    margin-right: 10px;
     color: #007bff;
+    vertical-align: bottom;
+  }
+
+  .navbar__walletIcon {
+    vertical-align: top;
+    margin-right: 10px;
+    margin-bottom: 8px;
   }
