@@ -22,6 +22,7 @@ const Navbar: React.FC<NavbarProps> = ({ balance }) => {
       <div className={styles.navbar__icons}>
         <div className={`${styles.navbar__icon} ${styles.navbar__walletIcon}`}>💰</div>
         <div className={styles.navbar__balance}>${balance.toFixed(2)}</div>
+        <p>|</p>
         <div className={`${styles.navbar__icon} ${styles.navbar__userIcon}`}>👤</div>
       </div>
     </div>

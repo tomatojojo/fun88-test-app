@@ -15,9 +15,8 @@ const Main: React.FC = () => {
     'https://via.placeholder.com/600x300/33c1ff/ffffff?text=Image+3',
   ];
 
-
-  console.log('userBalance:', userBalance);
-  console.log('carouselImages:', carouselImages);
+  // console.log('userBalance:', userBalance);
+  // console.log('carouselImages:', carouselImages);
 
   return (
     <div className={styles.Home}>
