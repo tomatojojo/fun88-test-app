@@ -8,33 +8,7 @@
   overflow: hidden;
 }
 
-/* .carousel__controls {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: 50%;
-  width: calc(100% - 40px);
-  transform: translateY(-50%);
-  z-index: 1;
-} */
-
-/* .carousel__button {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  font-size: 30px;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 50%;
-  transition: background-color 0.3s;
-  z-index: 2;
-}
-
-.carousel__button:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-} */
-
-.carousel__images-container {
+.carousel__imagesContainer {
   display: flex;
   width: 100%;
   transition: transform 0.5s ease-in-out;

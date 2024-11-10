@@ -12,10 +12,6 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
-  // const prevSlide = () => {
-  //   setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-  // };
-
   useEffect(() => {
     const interval = setInterval(nextSlide, 3000);
 
@@ -27,10 +23,6 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
 
   return (
     <div className={styles.carousel}>
-      {/* <div className="carousel__controls">
-        <button onClick={prevSlide} className="carousel__button carousel__prev">❮</button>
-        <button onClick={nextSlide} className="carousel__button carousel__next">❯</button>
-      </div> */}
       <div
         className={styles.carousel__imagesContainer}
         style={{
