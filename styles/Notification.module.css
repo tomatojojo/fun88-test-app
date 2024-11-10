@@ -7,12 +7,17 @@
   }
   
 .notification__bell {
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(255, 196, 0);
-    margin-right: 10px;
+    margin-left: 12px;
+    margin-top: 7px;
+    vertical-align: middle;
 }
 
 .notification__text {
     font-size: 14px;
     color: #2a91ff;
+    margin-left: 5px;
+    margin-top: 0;
+    vertical-align: bottom;
 }

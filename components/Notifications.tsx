@@ -1,14 +1,12 @@
 import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faBell } from '@fortawesome/free-solid-svg-icons';
-// old unsupported libs
+import { AiOutlineBell } from 'react-icons/ai';
 import styles from '../styles/Notification.module.css';
 
 const Notification: React.FC = () => {
   return (
     <div className={styles.notifications}>
-      {/* <FontAwesomeIcon icon={faBell} className={styles.notification_bell} /> */}
-      <span className={styles.notification_text}>Lorem ipsum lorem ipsum lorem ipsum</span>
+      <AiOutlineBell className={styles.notification__bell} />
+      <span className={styles.notification__text}>Lorem ipsum lorem ipsum lorem ipsum</span>
     </div>
   );
 };
