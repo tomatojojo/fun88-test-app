@@ -166,6 +166,7 @@ const Tabs: React.FC = () => {
                 <div className={styles.filterPopup}>
                     <div className={styles.popupContent}>
                         <h2>Filter Options</h2>
+                        <br></br>
                         <div className={styles.providerButtons}>
                             {Array.from(providers).map((provider) => (
                                 <button
@@ -177,6 +178,7 @@ const Tabs: React.FC = () => {
                                 </button>
                             ))}
                         </div>
+                        <br></br>
                         <button onClick={closePopup}>Close</button>
                     </div>
                     <div className={styles.popupOverlay} onClick={closePopup}></div>
