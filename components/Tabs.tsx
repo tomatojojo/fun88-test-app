@@ -114,6 +114,9 @@ const Tabs: React.FC = () => {
                 >
                     SEARCH
                 </div>
+                <div className={styles.lineDiv}>
+                    |
+                </div>
                 <div
                     className={`${styles.tab} ${selectedTab === 'START' ? styles.selected : ''}`}
                     onClick={() => handleTabClick('START')}
