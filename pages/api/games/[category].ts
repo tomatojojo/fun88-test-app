@@ -9,6 +9,7 @@ const mockData: { [key: string]: { id: number; name: string; description: string
     { id: 2, name: 'New Game 2', description: 'Try your luck with new game!', provider: 'Provider B' },
     { id: 3, name: 'New Game 3', description: 'A fresh and fun game!', provider: 'Provider C' },
     { id: 4, name: 'New Game 4', description: 'Explore new challenges!', provider: 'Provider A' },
+    { id: 5, name: 'New Game 5', description: 'Very difficult game!', provider: 'Provider B' },
   ],
   SLOTS: [
     { id: 1, name: 'Slot Game 1', description: 'Spin the wheel and win!', provider: 'Provider B' },

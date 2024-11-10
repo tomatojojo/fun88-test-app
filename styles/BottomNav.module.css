@@ -1,4 +1,4 @@
-.lower-navbar {
+.lowerNavbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,7 +11,7 @@
     z-index: 100;
   }
   
-  .lower-navbar__item {
+  .lowerNavbar__item {
     font-size: 13px;
     color: #007bff;
     cursor: pointer;
@@ -21,7 +21,7 @@
     border-radius: 5px;
   }
   
-  .lower-navbar__item:hover {
+  .lowerNavbar__item:hover {
     background-color: #007bff;
     color: white;
   }
