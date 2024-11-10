@@ -59,7 +59,7 @@ const Tabs: React.FC = () => {
             });
 
             try {
-                const data = await fetchGames;
+                //const data = await fetchGames;
                 setGames(originalGames);
             } catch (error) {
                 console.error('Error fetching games:', error);
