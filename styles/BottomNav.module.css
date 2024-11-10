@@ -1,0 +1,27 @@
+.lower-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 8px 0;
+    border-top: 1px solid #ccc;
+    z-index: 100;
+  }
+  
+  .lower-navbar__item {
+    font-size: 13px;
+    color: #007bff;
+    cursor: pointer;
+    padding: 8px 12px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .lower-navbar__item:hover {
+    background-color: #007bff;
+    color: white;
+  }

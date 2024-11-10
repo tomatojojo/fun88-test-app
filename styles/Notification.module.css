@@ -1,0 +1,18 @@
+.notification {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding: 0 20px; 
+  }
+  
+.notification__bell {
+    font-size: 15px;
+    color: rgb(255, 196, 0);
+    margin-right: 10px;
+}
+
+.notification__text {
+    font-size: 14px;
+    color: #2a91ff;
+}
